@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIVEGOLGAPPA</title>
+    <link rel="stylesheet" href="other.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .food{
+            height: 100vh;
+            background: linear-gradient(rgba(12,11,9,0.5),rgba(12,11,9,0.8)),url("Puri3.jpg");
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <section class="food">
+
+        <!--======= Header Section ======-->
+
+        <header>
+            <h1>SpecialMania</h1>
+            <nav>
+                <ul>
+                    <li><a href="result.html">Home</a></li>
+                    <li><a href="panipurizz.html">Panipurizz</a></li>
+                    <li><a href="special.html">Special</a></li>
+                    <li><a href="aboutus.html">AboutUs</a></li>
+                    <li><a href="index.html">LogOut</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <button class="btn-cart">Cart
+                        <i class="fa fa-cart-plus" id="cart-icon"></i>
+                    </button>
+                    <div class="cart-count">0</div>                    
+                </ul>
+            </nav>
+            
+            <!--Cart-->
+
+            <div class="cart">
+                <div class="cart-title">Cart items</div>
+                <div class="cart-content">
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">Rs.0</div>
+                </div>
+                <button class="btn-buy">Place Order</button>
+                <i class="fa fa-close" id="cart-close"></i>
+            </div>
+
+        </header>
+
+        <!--Panipurizz-->
+
+        <div class="container">
+            <div class="food-box puri">
+                <img src="Special3.jpg" class="food-img">
+                <h2 class="food-title">Special Panipuri</h2>
+                <h3 class="food-price">Rs.850.00</h3>
+                <button class="add-cart">
+                    Add to cart
+                </button>
+            </div>
+            <div class="panel special">
+                <h1>ABOUT SPECIALMANIA</h1>
+                <h3>Type Here</h3>
+            </div>
+           </div>
+        
+    </section>
+
+    <!--Script-->
+    <script src="script.js"></script>
+</body>
+</html>
